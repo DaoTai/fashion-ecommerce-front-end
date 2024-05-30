@@ -11,16 +11,18 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="mt-[160px] w-screen bg-slate-100 pb-[88px]">
-      <div className="container relative pt-[120px]">
+    <footer className=" mt-[160px] w-screen bg-slate-300 pb-[88px]">
+      <div className="container relative left-2 right-2">
         {/* Form box */}
-        <div className="container absolute -top-1/2 left-0 flex translate-y-1/2 flex-wrap items-center rounded-3xl bg-black px-4  py-9 md:px-16">
+        {/* <div
+          className="absolute  left-0 right-0 flex flex-wrap
+         items-center gap-4 rounded-2xl bg-black px-16 py-10 md:-top-1/2 md:translate-y-1/2 md:flex-nowrap"
+        >
           <div className="basis-full md:basis-1/2">
-            <h1 className="text-[40px] font-extrabold text-white">
+            <h1 className="text-[40px] font-extrabold leading-normal text-white">
               STAY UPTO DATE ABOUT OUR LATEST OFFERS
             </h1>
           </div>
-          {/* Form */}
           <form className="flex basis-full flex-col flex-wrap items-start space-y-5 md:basis-1/2 md:items-end">
             <div className="flex w-full items-center gap-2 rounded-3xl bg-white px-4 py-3 md:w-2/3">
               <MailIcon className="text-black/40" />
@@ -37,10 +39,10 @@ const Footer = () => {
               Subscribe to Newsletter
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* Content */}
-        <div className="grid grid-cols-2 gap-2 border-b-2 border-black/10 pb-[50px] md:grid-cols-5">
+        <div className="grid grid-cols-2 gap-2 border-b-2 border-black/10 pb-[50px] pt-[190px] md:grid-cols-5 md:pt-[120px]">
           <div className="flex flex-1 flex-col justify-between">
             <Logo />
             <p className="text-black/60">

@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen overflow-x-hidden`}>
+      <body className={`${inter.className} pb min-h-screen overflow-x-hidden`}>
         <Header />
         <main className="mt-h-header-2x">{children}</main>
         <Footer />
